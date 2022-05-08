@@ -19,13 +19,13 @@ connect with the github page repository
 
 ## Demo
 
-- [Repository](https://github.com/JJWizardMP/Grand-Oasis-Cancun-Test)
+- [Repository](https://github.com/JJWizardMP/Git-Switcher)
 
 ## Images
 
 ### Running script
 
-![](./front-end/assets/views/view_table.png)
+![](./assets/views/view_table.png)
 
 ## Technologies
 
@@ -47,13 +47,21 @@ $ chmod u+x script.sh requirements.sh
 Run the requirements script
 
 ```sh
-$ ./requirements.sh
+$ ./requirements.sh linux
 ```
 
 Run the main script with one argument(the argument is your account in the config.json)
 
+We need to specify 2 arguments, the third argument is optional only if you pass "github" or "both" as the first argument, in other case is not necessary
+
+Parameters:
+- command: "git", "github" or "both"
+- account: name of account in the config.json
+- method: "token" or "browser"
+
+
 ```sh
-$ ./requirements.sh jjwizard
+$ ./requirements.sh both jjwizard browser
 ```
 
 ## Contribuidores
