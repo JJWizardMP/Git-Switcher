@@ -35,6 +35,7 @@ changeGitCredentials() {
 }
 # Change github credentials from a json file with the command jq (for more read the doc for jq)
 changeGithubCredentials(){
+    gh auth logout
     case $med in
         token)
             gh auth login --with-token < /tmp/tokengithub
