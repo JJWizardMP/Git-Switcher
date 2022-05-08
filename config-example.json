@@ -1,0 +1,17 @@
+{
+    "account1": {
+        "user": "usr1",
+        "mail": "email1@email.com",
+        "email": "email1@email.com"
+    },
+    "account2": {
+        "user": "usr2",
+        "mail": "email2@email.com",
+        "email": "email2@email.com"
+    },
+    "account3": {
+        "user": "usr3",
+        "mail": "email3@email.com",
+        "email": "email3@email.com"
+    }
+}
