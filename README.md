@@ -74,7 +74,7 @@ $ ./script.sh both jjwizard browser
 
 ## Aditional Recommendation 
 
-if you use visual code as your IDE, we recommend use the browser auth mode because you log in github-cli and github page in your default browser, if you use token auth, you only log in github-cli.
+if you use visual code as your IDE, we recommend use the browser auth mode because you log in github-cli and github page in your default browser(Be sure you are logout of github in your browser), if you use token auth, you only log in github-cli.
 
 ## Contributors
 
