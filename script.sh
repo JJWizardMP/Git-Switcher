@@ -49,8 +49,21 @@ changeGithubCredentials(){
         ;;
     esac
 }
+verifyArguments(){
+    if [[ -z $cmd ]] || [[ -z $acc ]]
+    then
+        echo -e "\nPass the two require arguments!\n"
+        exit 1
+    fi
+    if [[ $cmd = "both" ]] && [[ -z $med ]]
+    then
+        echo -e "\nPass the third arguments if you use \"both\" login!\n"
+        exit 1
+    fi
+}
 # Main script
 main(){
+    verifyArguments
     setVariables
     case $cmd in
         git)
